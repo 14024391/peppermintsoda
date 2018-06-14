@@ -1,0 +1,99 @@
+
+
+@charset "utf-8";
+/* CSS Document */
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+
+@font-face {
+    font-family:'Futura-Condensed-Normal';
+    src: url('../fonts/Futura-Condensed-Normal.eot');
+	src: url('../fonts/Futura-Condensed-Normal.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Futura-Condensed-Normal.woff2') format('woff2'),
+		url('../fonts/Futura-Condensed-Normal.woff') format('woff'),
+		url('../fonts/Futura-Condensed-Normal.svg#Futura-Condensed-Normal') format('svg');
+    font-weight: 5;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00FE;
+}
+
+@font-face {
+    font-family:'Futura-CondensedMedium';
+    src: url('../fonts/Futura-CondensedMedium.eot');
+	src: url('../fonts/Futura-CondensedMedium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Futura-CondensedMedium.woff2') format('woff2'),
+		url('../fonts/Futura-CondensedMedium.woff') format('woff'),
+		url('../fonts/Futura-CondensedMedium.svg#Futura-CondensedMedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: expanded;
+    unicode-range: U+0020-00FE;
+}
+
+html,body{font-family: 'Open Sans', sans-serif; height:100%;}
+
+
+h1, h2, h3, h4, h5, h6{margin:0px; padding:0px}
+p{margin:0px; padding:0px}
+ul {margin:0px; padding:0px; list-style:none}
+ul li{margin:0px; padding:0px}
+a{text-decoration:none}
+
+#top_header{background:#33bfcc;padding:10px 0px;}
+.logo_text{text-align:right}
+.logo_text p{font-size:24px; color:#fff;font-family:'Futura-CondensedMedium'; padding:10px 0px;}
+#medal_benner img{margin:0px auto; width:100%;}
+
+#footer{background:#5bc6cc; padding:20px 0px; border-bottom:2px solid #fff; overflow:hidden}
+.login_text h2{font-size:27px; padding:10px 0px; font-family:'Futura-CondensedMedium'; color:#fff; text-align:center;padding:10px 0px;letter-spacing:1px}
+.img_arow img{margin:0px auto}
+.form_box .form-control{border-radius:0px; outline:none;font-family:'Futura-CondensedMedium'; color:#fff; box-shadow:none; height:42px; font-size:19px; background:none; border-color:#fff; letter-spacing:1px}
+.form_box{padding:10px 0px;}
+.form_box .btn{border-radius:0px; border:1px solid #fff; background:#ed2c67; color:#fff;font-family:'Futura-CondensedMedium'; font-size:19px; text-align:center;letter-spacing:1px; width:120px}
+.form_box .btn a{display:block; color:#fff; text-decoration:none}
+.form_box .btn:hover{background:#fff; color:#ed2c67; border-color:#ed2c67}
+.form_box .btn:hover a{color:#ed2c67}
+.form_box .btn .fa{padding:0px 0px 0px 7px;}
+.form_box ul{text-align:center}
+.form_box ul li{display:inline-block; padding:5px 10px; color:#fff;font-family:'Futura-CondensedMedium'; font-size:19px; letter-spacing:1px;}
+.form_box ul li input[type=radio], input[type=checkbox]{width:18px; height:18px; top:3px; position:relative; margin:0px 5px 0px 0px}
+.form_box textarea.form-control{height:60px;}
+.form_box p{text-align:center;font-family:'Futura-CondensedMedium'; font-size:19px; color:#fff;padding:0px 16px;}
+.de{padding:15px 0px;}
+/*************************/
+@media (min-width: 1200px) {
+
+  
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+@media (max-width: 767px) {
+.logo_text{text-align:left;padding:0px 0px 0px;}
+}
+@media (max-width: 627px) {
+
+}
+@media (min-width: 481px) and (max-width: 626px) {
+
+}
+@media (max-width: 480px) {
+
+}
+
+@media (max-width: 360px) {
+
+}
+
+@media (max-width: 320px) {
+
+}
+
